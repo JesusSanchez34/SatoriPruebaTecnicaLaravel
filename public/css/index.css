@@ -1,0 +1,48 @@
+body {
+    background: linear-gradient(90deg, #5667ff, #8f5bbe);
+    color: #333;
+}
+ /* Estilo para las tarjetas de Pokémon */
+ .pokedex-container {
+    border: 2px solid #f1c40f; 
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+
+.pokedex-container:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+ /*Ajustar la imagen de la carta*/
+.card-img-top {
+    height: 200px;
+    object-fit: contain;
+}
+
+/* Estilo del texto */
+h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+body {
+    background: linear-gradient(90deg, #5667ff, #8f5bbe);
+    color: #333;
+}
+
+/* Boton de aleatorio */
+.btn-custom {
+    background-color: #8f5bbe;
+    color: white;
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 0.6rem 1.2rem;
+    transition: background 0.3s ease;
+}
+.btn-custom:hover {
+    background-color: #5667ff;
+}
+
+.card-title {
+    text-transform: capitalize;
+}
